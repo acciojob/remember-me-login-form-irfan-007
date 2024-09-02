@@ -5,3 +5,6 @@ form input{
 #existing{
 	display:none;
 }
+#checkbox{
+	display:inline;
+}

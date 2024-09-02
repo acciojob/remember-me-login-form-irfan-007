@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+form input{
+	display:block;
+}
+#existing{
+	display:none;
+}

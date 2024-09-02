@@ -19,7 +19,7 @@ submit.addEventListener("click", (e) => {
     localStorage.removeItem("name");
     localStorage.removeItem("password");
   }
-  alert("Logged in as "+name);  
+  alert("Logged in as "+name); 
 });
 
 existing.addEventListener("click", (e) => {

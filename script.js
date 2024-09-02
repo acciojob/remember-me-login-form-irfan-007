@@ -19,10 +19,10 @@ submit.addEventListener("click", (e) => {
     localStorage.removeItem("name");
     localStorage.removeItem("password");
   }
-  alert("Logged in as");
+  alert("Logged in as"+name);
 });
 
 existing.addEventListener("click", (e) => {
   e.preventDefault();
-  alert("Logged in as");
+  alert("Logged in as"+localStorage.getItem("name"));
 });
